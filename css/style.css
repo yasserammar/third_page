@@ -1,0 +1,854 @@
+
+body {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(196, 193, 193);
+    
+
+}
+
+* {
+
+    margin:0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+ 
+a {
+
+    text-decoration: none;
+}
+
+div{
+    display:block;
+}
+
+.navbar{
+    height: 80px;
+    width: 100vw;
+    background-color: rgba(135, 139, 141, 0.5);
+    opacity: 0.7;
+    position: fixed;
+    z-index: 20;
+}
+
+.header_img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    /* background: -webkit-linear-gradient(90deg,#00dbde,#fc00ff);
+    font-size: 22px; */
+    font-weight: bold;
+    border-right: 1px solid  rgb(132, 133, 139);
+    padding-right: 10px;
+    
+    
+    
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    text-shadow: 0 0 20px blue;
+    
+}
+
+.nav-link{
+   
+    color:rgb(92, 84, 207) !important;
+    transition: 0.1s;
+}
+
+.nav-link:hover{
+    transform: scale(1.15,1.15);
+    text-shadow: 0 0 30px rgb(255, 0, 0);
+}
+.nav-link:hover::first-letter{
+
+    color:rgb(255, 0, 149) !important;
+    font-weight: 700;
+}
+
+.trip-link{
+    border: 2px solid rgb(56, 78, 204);
+    border-radius: 10px;
+}
+
+.mydropdown-item{
+    color:rgb(56, 78, 204) !important;
+    text-shadow: 2px 0 2px rgb(56, 78, 204);
+}
+
+.hb-login{
+
+    margin-left: 10px !important;
+}
+
+.header-button{
+    color: white;
+    background-color:  rgb(56, 78, 204) ;
+}
+
+.header-button:hover{
+    background-color:  rgba(56, 78, 204, 0.479) !important; 
+}
+
+.header-search{
+
+    outline: 1px solid rgb(56, 78, 204) ;
+}
+
+.modal-bg{
+
+    background-color:  rgba(56, 78, 204);
+}
+
+.modal-email-label{
+    color:  rgba(56, 78, 204);
+}
+
+.modal-email-input{
+    border: 1px solid rgba(56, 78, 204);
+}
+
+.modal-check{
+    background-color:  rgba(56, 78, 204);
+}
+
+.modal-check-label{
+    color:  rgba(56, 78, 204);
+
+}
+
+.modal-btn{
+    background-color:  rgba(56, 78, 204);
+}
+
+/* /////////////////////Header////////////////////// */
+
+
+/* /////////////////////Aside////////////////////// */
+
+
+
+.social-links{
+    position: fixed;
+    z-index: 20;
+    top:200px;
+    right:30px;
+}
+
+.aside-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.aside-icon a {
+   
+    text-decoration: none;
+    color: rgba(24, 47, 165, 0.959);
+}
+
+
+.aside-icon a i {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.aside-icon a:hover{
+    color: rgba(24, 47, 165, 0.281);
+
+}
+
+/* /////////////////////Aside////////////////////// */
+
+
+
+/* /////////////////////carousel/////////////////// */
+.car-top{
+    width:100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.caro-img{
+
+    height:100vh;
+}
+
+.car-cap{
+    width:70vw;
+    height: 27vh;
+    background-color:  rgba(56, 78, 204, 0.534);
+    margin: auto;
+}
+
+.car-p{
+    width:70vw;
+    display:block;
+    margin-top: 10px;
+    
+}
+
+.car-h2{
+    width:60vw;
+    font-size: 40px;
+    display:block;
+    margin:auto;
+}
+
+.car-btn{
+    margin-top: -5px;
+
+}
+
+/* /////////////////////carousel/////////////////// */
+
+
+/* /////////////////////cards///////////////////// */
+
+.card-cont{
+    background-color: rgb(147, 157, 212);
+}
+
+.card-title{
+
+    font-weight: 600;
+}
+
+
+
+/* /////////////////////cards///////////////////// */
+.card2{
+    background-color: rgb(119, 127, 204);
+}
+/* /////////////////////cards///////////////////// */
+
+/* /////////////////////Accordion///////////////////// */
+
+
+.accordion-button{
+
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #c8caca 0%, #ffffff 100%) !important;
+}
+
+
+/* /////////////////////Accordion///////////////////// */
+
+
+/* /////////////////////Translations///////////////////// */
+
+.trans-head{
+
+    background-color: rgb(126, 138, 209);
+
+}
+
+.trans-card{
+
+   background-color:  rgb(147, 157, 212);
+}
+
+.card-body{
+
+    background-color: rgb(147, 157, 212);
+
+}
+ 
+.btn-copy{
+
+    font-size: 20px;
+
+}
+
+.brk{
+
+    color:black
+}
+
+/* /////////////////////Translation///////////////////// */
+
+/* /////////////////////backround_img_fixed//////////// */
+
+
+
+.status_bg {
+    background-image: url(../images/luxur.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+}
+
+/* /////////////////////backround_img_fixed//////////// */
+
+
+/* /////////////////////EGYPT-Cities-Tour//////////// */
+
+
+.egypt-tour-cont{
+
+    background-color: rgb(147, 157, 212);
+
+}
+
+.egypt-tour-title{
+
+    font-size: 45px;
+    font-weight: 500;
+    display: block;
+    margin:auto;
+
+}
+
+.mycard {
+    position: relative;
+    height: 480px;
+}
+
+.mycard::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: rgb(147, 157, 212);
+    opacity: 0.1;
+    transition: 1s;
+}
+
+.mycard:hover::before{
+
+    width:100%;
+    height:100%;
+    opacity: 0.5;
+
+}
+
+.mycard::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: rgb(147, 157, 212);
+    opacity: 0.1;
+    transition: 1s;
+}
+
+.mycard:hover::after{
+
+    width:100%;
+    height:100%;
+    opacity: 0.5;
+
+}
+
+
+.card-img {
+    height: 350px;
+}
+
+.mycard .btn {
+    position: absolute;
+    bottom: 85px;
+    right: 10px;
+}
+
+
+.city-card{
+    background-color: rgba(255, 255, 255, 0.041) !important;
+}
+
+.city-card .card-title{
+    color: blue;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.city-card .card-text{
+    color: blue;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+
+/* /////////////////////EGYPT-Cities-Tour//////////// */
+
+
+/* /////////////////////backround_img_fixed2//////////// */
+
+
+
+.status_bg2 {
+    background-image: url(../images/aswan3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+}
+
+/* /////////////////////backround_img_fixed2//////////// */
+
+/* /////////////////////Thanks-for//////////// */
+
+.thanks-for-head{
+
+    background-color: rgb(147, 157, 212);
+   
+
+}   
+
+.thanks-for-head-text{
+
+    font-size: 40px;
+
+} 
+
+@media screen and (max-width: 1500px){
+
+    .section10-box{
+
+        width:90VW;
+        height:500px;
+        margin:30px;
+    
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+
+    .section10-box{
+
+        width:90VW;
+        height:1200px;
+        margin:30px;
+    
+    }
+
+}
+
+
+
+
+.section10-box .container{
+
+    width:100%;
+    height: 100%;
+    
+}
+
+.section10-box .container .row{
+    height: 100%;
+}
+
+.section10-box .container .row .thank-card{
+    background-color: rgba(255, 255, 255, 0);
+    border:0;
+    transition: 0.5s;
+}
+
+.section10-box .container .row .thank-card .thank-card-cont{
+    position: relative;
+    border-radius: 25px;
+    padding: 0;
+    height: 100%;
+    width:95%;
+    
+    background-size: cover;
+    transition: 1s;
+}
+
+.section10-box .container .row .thank-card .thank-card-mohamad{
+    background-image: url(../images/Mohamed.jpeg);
+
+}
+
+
+.section10-box .container .row .thank-card .thank-card-islam{
+    background-image: url(../images/islam.jpg);
+
+}
+
+
+.section10-box .container .row .thank-card .thank-card-saly{
+    background-image: url(../images/saly.jpeg);
+
+}
+
+.section10-box .container .row .thank-card .thank-card-cont .card-overlay{
+    position: absolute;
+    border-radius: 25px;
+    
+    width:100%;
+    height:100%;
+    background-color: rgba(116, 119, 139, 0.815);
+    
+}
+
+.section10-box .container .row .thank-card .thank-card-cont .card-overlay .d-flex .card-body{
+    transition: 0.5s;
+}
+
+.section10-box .container .row .thank-card:hover{
+    transform: scale(0.9,0.9);
+    cursor: pointer;
+}
+
+.section10-box .container .row .thank-card:hover .thank-card-cont .card-overlay .d-flex .card-body{
+    padding-top: 60px;
+}
+
+
+.section10-box .container .row .thank-card .thank-card-cont .card-overlay .d-flex{
+    height: 100%;
+}
+
+.section10-box .container .row .thank-card .thank-card-cont .card-overlay .d-flex .card-body{
+    
+    background-color: rgba(255, 255, 255, 0);
+  
+    
+}
+
+.section10-box .container .row .thank-card .thank-card-cont .card-overlay .d-flex .card-body h4{
+    font-size: 20px;
+    font-weight: 200;
+    color: white
+}
+
+.section10-box .container .row .thank-card .thank-card-cont .card-overlay .d-flex .card-body p{
+    font-size: 12px;
+    font-weight: 200;
+    color: white
+}
+/* /////////////////////Thanks-for//////////// */
+
+/* /////////////////////Section11_Egypt_news//////////// */
+
+.section11_container{
+    height: fit-content;
+    background-color: rgba(147, 157, 212, 0);
+}
+
+.section11_head{
+
+    height: 70px;
+    background-color: rgba(147, 157, 212, 0);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: blue;
+   
+}
+
+/* /////////////////////Section11_Egypt_news//////////// */
+
+.section11_egypt_holder{
+    height:fit-content;
+    position: relative;
+    width:100%;
+   
+    
+
+}
+
+
+
+
+
+@media screen and (max-width: 1500px){
+
+    .section11_egypt_middle{
+        position: absolute;
+        height: 100%;
+        width: 34px;
+        background-color: rgb(130, 142, 207);
+        transform: skewX(5deg);
+        left:764px;
+       
+    }
+    
+    .section11_egypt_middle2{
+        position: absolute;
+        height: 100%;
+        width: 34px;
+        background-color: rgb(130, 142, 207);
+        transform: skewX(-5deg);
+        left:316px;
+       
+    }
+
+    .section11_egypt_image1{
+        background-image: url("../images/postcard1.jpg");
+        background-size: 150%;
+    }
+    
+    .section11_egypt_image2{
+        background-image: url("../images/postcard2.jpg");
+        background-size: 200%;
+    }
+    
+    .section11_egypt_image3{
+        background-image: url("../images/postcard3.jpg");
+        background-size: 150%;
+    }
+    
+    .section11_egypt_image4{
+        background-image: url("../images/postcard4.jpg");
+        background-size: 150%;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .section11_egypt_middle{
+        visibility: hidden;
+        
+       
+    }
+    
+    .section11_egypt_middle2{
+        visibility: hidden;
+        
+       
+    }
+
+    .section11_egypt_image1{
+        background-image: url("../images/postcard1.jpg");
+        background-size:cover;
+    }
+    
+    .section11_egypt_image2{
+        background-image: url("../images/postcard2.jpg");
+        background-size:cover;
+    }
+    
+    .section11_egypt_image3{
+        background-image: url("../images/postcard3.jpg");
+        background-size:cover;
+    }
+    
+    .section11_egypt_image4{
+        background-image: url("../images/postcard4.jpg");
+        background-size:cover;
+    }
+
+
+}
+
+
+.section11_egypt{
+    
+    display: flex;
+    flex-direction: row;
+    height:60vh;
+    background-color: rgb(130, 142, 207);
+   
+}
+
+.section11_egypt:hover .section11_egypt_left .section11_egypt_bar {
+    width:21%;
+}
+
+.section11_egypt:hover .section11_egypt_left2 .section11_egypt_bar {
+    width:21%;
+}
+
+
+
+.section11_egypt_right{
+    height: 100%;
+    width: 30% ;
+    
+}
+
+@media screen and (max-width: 1500px){
+
+.section11_egypt:hover .section11_egypt_image1{
+    background-size: 160%;
+    background-repeat: no-repeat;
+   
+}
+
+.section11_egypt:hover .section11_egypt_image3{
+    background-size: 160%;
+    background-repeat: no-repeat;
+   
+}
+
+.section11_egypt:hover .section11_egypt_image4{
+    background-size: 160%;
+    background-repeat: no-repeat;
+   
+}
+
+.section11_egypt:hover .section11_egypt_image2{
+    background-size: 210%;
+    background-repeat: no-repeat;
+   
+}
+}
+
+@media screen and (max-width: 1100px){
+
+    .section11_egypt:hover .section11_egypt_image1{
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+    
+    .section11_egypt:hover .section11_egypt_image3{
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+    
+    .section11_egypt:hover .section11_egypt_image4{
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+    
+    .section11_egypt:hover .section11_egypt_image2{
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+    }
+
+.section11_egypt_image{
+    height: 100%;
+    width: 100% ;
+    
+   
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+
+
+
+.section11_egypt_left{
+
+   height:fit-content;
+    width: 70%;
+    padding-left: 10px;
+
+}
+
+.section11_egypt_left2{
+
+    height:fit-content;
+    width: 70%;
+    padding-left: 30px;
+
+}
+
+.section11_egypt_text{
+
+    width:98%;
+}
+
+.section11_egypt_cal {
+
+    font-size: 15px;
+}
+
+.section11_egypt_bar{
+
+    width:7%;
+    height:5px;
+    border-radius: 2px;
+    background-color: rgb(38, 0, 255);
+    transition: 0.5s;
+}
+
+
+
+
+.section11_egypt_tag {
+
+        list-style: none;
+        display: flex;
+        flex-direction: row  wrap;
+        justify-content: space-between;
+}
+
+
+
+
+
+
+.section11_egypt_tag .tag_item1{
+    width: 15%;
+    border-radius: 3px;
+}
+
+.section11_egypt_tag .tag_item2{
+    width: 18%;
+    border-radius: 3px;
+    
+}
+
+.section11_egypt_tag .tag_item2 a{
+    color: rgb(35, 35, 99);
+
+}
+
+.section11_egypt_tag .tag_item3{
+    width: 10%;
+}
+
+.section11_egypt_tag .tag:hover{
+    background-color: rgb(66, 65, 65) !important;
+}
+
+/* /////////////////////Section11_Egypt_news//////////// */
+
+/* /////////////////////Section12_JOIN_US//////////// */
+
+.tweet_card{
+
+    width: 250px;
+    box-shadow: -5px -5px 30px 10px rgb(149, 142, 241);
+}
+
+.section12_cont_row{
+    width:100%;
+}
+
+.section12_img{
+    box-shadow: -5px -5px 30px 10px  rgb(149, 142, 241); 
+}
+
+/* /////////////////////Section12_JOIN_US//////////// */
+
+/* /////////////////////Section13//////////// */
+
+.section13_log{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.section13_img{
+
+    box-shadow: -5px -5px 20px 10px  rgb(184, 181, 228);
+
+}
+
+/* /////////////////////Section13//////////// */
